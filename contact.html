@@ -1,0 +1,114 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>CONTACT</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<!--Container-->
+<div class="container">
+
+	<!--jumbtron-->
+    <div class="jumbotron">
+    	<h1> Contact Me </h1>
+    </div>
+    
+    <!--Nav Bar-->
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>                        
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">My Work <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="photo.html">Photography</a></li>
+                <li><a href="media.html">Media</a></li>
+                <li><a href="design.html">Design</a></li>
+              </ul>
+            </li>
+            <li class="active"><a href="contact.html">Contact Me</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+    <form class="form-horizontal">
+	<fieldset>
+
+    <!-- Form Name -->
+    <legend class="contacttop">Contact Me</legend>
+    
+    <!-- First Name-->
+    <div class="form-group">
+      <label class="col-md-4 control-label" for="textinput"><img class="icon" src="images/profile.png" alt="form"></label><span class="required"> * </span>  
+      <div class="col-md-4">
+      <input id="textinput" name="textinput" required type="text" placeholder="First Name" class="form-control input-md">
+      </div>
+    </div>
+
+    <!-- Last Name-->
+    <div class="form-group">
+      <label class="col-md-4 control-label" for="textinput"></label><span class="required"> * </span>  
+      <div class="col-md-4">
+      <input id="textinput1" name="textinput" type="text" placeholder="Last Name" class="form-control input-md"> 
+      </div>
+    </div>
+    
+    <!-- Email input-->
+    <div class="form-group">
+      <label class="col-md-4 control-label" for="textinput"><img class="icon" src="images/email1.png" alt="form"></label><span class="required"> * </span> 
+      <div class="col-md-4">
+      <input type="email" name="email" required placeholder="Enter a valid email address">
+      </div>
+    </div>
+    
+    <!-- Comments -->
+    <div class="form-group">
+      <label class="col-md-4 control-label" for="textarea"><img class="icon" src="images/comment1.png" alt="form"></label>
+      <div class="col-md-4">                     
+        <textarea class="form-control" id="textarea" name="textarea">Please write comments here.</textarea>
+      </div>
+    </div>
+    
+    <!-- Subscribe -->
+    <div class="form-group">
+      <label class="col-md-4 control-label" for="selectbasic"><img class="icon" src="images/sub.png" alt="form"></label><span class="required"> * </span>
+      <div class="col-md-4">
+        <select id="selectbasic" name="selectbasic" class="form-control">
+          <option value="1">Subscribe for Updates?</option>
+          <option value="2">Yes</option>
+          <option value="3">No</option>
+        </select>
+      </div>
+    </div>
+    
+    <!-- Button -->
+    <div class="form-group button">
+      <div class="col-md-12">
+        <button id="singlebutton" name="singlebutton" class="btn btn-primary center-block">Done</button>
+      </div>
+    </div>
+</fieldset>
+</form>
+    
+
+</div><!--End of Container-->
+
+<!--Javascript-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+</body>
+</html>
